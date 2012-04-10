@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="e565afd1-56bc-44c2-972b-5cc84dd5b18f" Publisher="CN=Noel" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>NoelBlogReader</DisplayName>
+    <PublisherDisplayName>Noel</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>NoelBlogReader</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="NoelBlogReader.exe" EntryPoint="NoelBlogReader.App">
+      <VisualElements DisplayName="NoelBlogReader" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="NoelBlogReader" ForegroundText="light" BackgroundColor="#222222">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

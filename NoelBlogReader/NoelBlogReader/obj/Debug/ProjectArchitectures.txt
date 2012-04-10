@@ -1,0 +1,1 @@
+C:\Users\Noel\documents\visual studio 11\Projects\NoelBlogReader\NoelBlogReader\NoelBlogReader.csproj;neutral
